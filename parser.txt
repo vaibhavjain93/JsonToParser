@@ -1,0 +1,31 @@
+int totalCount = dataObject.optInt(Keys.TOTALCOUNT);	
+JSONArray addressesArray = dataObject.optJSONObject(Keys.ADDRESSES);
+if(addressesArray != null && addressesArray.length() > 0) {
+  for (int i = 0; i < addressesArray.length(); i++) {
+    int id = addressesArray[i].optInt(Keys.ID);	
+    boolean isDefault = addressesArray[i].optBoolean(Keys.ISDEFAULT);	
+    String score = addressesArray[i].optString(Keys.SCORE);	
+    String type = addressesArray[i].optString(Keys.TYPE);	
+    String streetAddress = addressesArray[i].optString(Keys.STREETADDRESS);	
+    String locality = addressesArray[i].optString(Keys.LOCALITY);	
+    String city = addressesArray[i].optString(Keys.CITY);	
+    String pincode = addressesArray[i].optString(Keys.PINCODE);	
+    JSONObject stateObject = addressesArray[i].optJSONObject(Keys.STATE);
+    if(stateObject != null) {
+      String code = stateObject.optString(Keys.CODE);	
+      String name = stateObject.optString(Keys.NAME);	
+    }
+    JSONObject coutryObject = addressesArray[i].optJSONObject(Keys.COUTRY);
+    if(coutryObject != null) {
+      String code = coutryObject.optString(Keys.CODE);	
+      String name = coutryObject.optString(Keys.NAME);	
+    }
+    JSONObject userObject = addressesArray[i].optJSONObject(Keys.USER);
+    if(userObject != null) {
+      String uidx = userObject.optString(Keys.UIDX);	
+      String name = userObject.optString(Keys.NAME);	
+      String email = userObject.optString(Keys.EMAIL);	
+      String mobile = userObject.optString(Keys.MOBILE);	
+    }
+  }
+}

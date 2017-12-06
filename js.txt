@@ -1,15 +1,57 @@
 {
-  		"status" : {
-          		"statusCode": "TRANSACTION_SUCCESSFUL",
-                 "statusMessage" : "Transaction is successful",
-                 "statusType": 'SUCCESS'
+    "totalCount":2,
+    "addresses": [
+        {
+            "id": 6140887,
+            "isDefault":true,
+            "score":"VALID",
+            "type" : "HOME",
+            "streetAddress":"AECS LAYOUT, KUDLU",
+            "locality":"singasandra",
+            "city": "Bangalore",
+            "pincode" : "560068",
+            "state": {
+                "code" : "KA",
+                "name" : "Karnataka"
+            },
+            "coutry" : {
+                "code" : "IN",
+                "name" : "India"
+            },
+            "user" : {
+                "uidx" : "automation-bde77f43.6546.445d.9d99.a434a2e694derFYzcKklkL",
+                "name"  : "Surjith Meethal",
+                "email" : "surjith.meethal@gmail.com",
+                "mobile" : "9999999999"
+            }
+
+
+        },
+        {
+            "id": 6140887,
+            "isDefault":true,
+            "score":"VALID",
+            "type" : "OFFICE",
+            "streetAddress":"MYNTRA DESIGNS PVT LTD, AKR",
+            "locality":"kudlu gate",
+            "city": "Bangalore",
+            "pincode" : "560068",
+            "state": {
+                "code" : "KA",
+                "name" : "Karnataka"
+            },
+            "coutry" : {
+                "code" : "IN",
+                "name" : "India"
+            },
+            "user" : {
+                "uidx" : "automation-bde77f43.6546.445d.9d99.a434a2e694derFYzcKklkL",
+                "name"  : "Surjith Meethal",
+                "email" : "surjith.meethal@gmail.com",
+                "mobile" : "9999999999"
+            }
+
+
         }
-       "data" : {
-         		"tenantId": "",
-         		"orderId" : "",
-         		"ppsID" : "",
-                "ppsTxnId": "",
-                "clientTransactionId":"",
-                "success":"true"
-       }
-}
+    ]
+} 
