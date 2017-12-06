@@ -6,11 +6,7 @@ Run in terminal npm install lodash
 
 Run in terminal npm install fs
 
-Rename getjsonkeys -> getjsonkeys.js
-
-Run in terminal node getjsonkeys.js
-
-Rename mappingjsonfile -> mappingjsonfile.js
+Paste your json in js.txt
 
 Run in terminal node mappingjsonfile.js
 
