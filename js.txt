@@ -1,0 +1,15 @@
+{
+  		"status" : {
+          		"statusCode": "TRANSACTION_SUCCESSFUL",
+                 "statusMessage" : "Transaction is successful",
+                 "statusType": 'SUCCESS'
+        }
+       "data" : {
+         		"tenantId": "",
+         		"orderId" : "",
+         		"ppsID" : "",
+                "ppsTxnId": "",
+                "clientTransactionId":"",
+                "success":"true"
+       }
+}
