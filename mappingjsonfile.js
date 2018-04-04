@@ -198,6 +198,3 @@ function mainRecursive(jsonObject,parentJsonElementName){
 //int -> int keynameinCamelCase = parentJsonObjectName.opt+primitiveTypeCamelCase(Keys.keyNameInCaps);
 
 //primitive -> primitiveType keynameinCamelCase = parentJsonObjectName.opt+primitiveTypeCamelCase(Keys.keyNameInCaps);
-
-
-
